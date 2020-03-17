@@ -1,0 +1,16 @@
+
+public class ProdutoPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Instanciando
+		
+		Produto produto1 =  new Produto ("Celular, Samsung A50", 2.278,3.800,1500); 
+		produto1.Apresentar(); //Apresentando
+		
+		produto1.calcularMargemLucro();
+		produto1.getMargemLucroPorcentagem();
+	}
+
+}
